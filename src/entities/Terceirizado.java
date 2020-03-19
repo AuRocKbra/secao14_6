@@ -22,6 +22,6 @@ public class Terceirizado extends Funcionario{
 	
 	@Override
 	public Double valorAPagar() {
-		return (this.getValorDaHora()*this.getHorasTrabalhadas())+(this.getDespesaAdicional()*11.0);
+		return (this.getValorDaHora()*this.getHorasTrabalhadas())+(this.getDespesaAdicional()*1.1);
 	}
 }
